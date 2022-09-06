@@ -10,7 +10,7 @@ const AskQuestion = () => {
                 <div className="mt-2  avatar-group text-center">
                     <div className="relative z-20 inline-flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 -ml-4  transition-all duration-200 border-2 border-white border-solid rounded-full ease-soft-in-out text-size-xs hover:z-40">
                         <Image
-                            src="/assets/team/Mr Chima.jpg"
+                            src="/assets/team/Shina-Badaru.jpg"
                             className="w-full rounded-full"
                             layout="fill"
                             alt="user2"
