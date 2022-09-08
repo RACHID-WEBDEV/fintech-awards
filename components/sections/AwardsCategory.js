@@ -6,6 +6,7 @@ import AccordionLayout from '@/components/Accordion/Accordion';
 import classNames from 'classnames';
 import { Container } from '../ColorSwitch';
 import { LongArrow } from '@/public/assets/svgsIcons'
+import Fade from 'react-reveal/Fade';
 
 
 export const StepButton = ({ title, onClick, leftIcon, rightIcon }) => (
@@ -66,23 +67,31 @@ const PackageTab = () => {
             <Container className=" pt-3">
                 <div >
                     <div id="categories" className="mb-4 text-jacarta-700 dark:text-jacarta-100">
-                        <h2 className="font-display  mb-3 text-center tracking-wider md:leading-normal lg:text-[46px] text-3xl dark:text-white">
-                            Awards Categories
-                        </h2>
-                        <p className="lg:text-lg max-w-3xl text-center mx-auto"> NIGERIAN FINTECH AWARDS 2022 CATEGORIES </p>
-
+                        <Fade top >
+                            <h2 className="font-display  mb-3 text-center tracking-wider md:leading-normal lg:text-[46px] text-3xl dark:text-white">
+                                Awards Categories
+                            </h2>
+                        </Fade>
+                        <Fade right >
+                            <p className="lg:text-lg max-w-3xl text-center mx-auto"> NIGERIAN FINTECH AWARDS 2022 CATEGORIES </p>
+                        </Fade>
                     </div>
                     <div className=" 2xl:container 2xl:mx-auto overflow-hidden">
 
                         <div className=" py-6 px-2 lg:py-12 mx-auto lg:max-w-4xl">
-                            <ul className="flex flex-wrap justify-start lg:space-x-5 text-center list-none border-b-[1px] border-jacarta-300">
-                                {TabTitles}
-                            </ul>
-
-                            <div className="py-1 m-0">{TabContent}</div>
-                            <div className="my-2 pt-1 mx-5 ">
-                                {StepNavigation}
-                            </div>
+                            <Fade left>
+                                <ul className="flex flex-wrap justify-start lg:space-x-5 text-center list-none border-b-[1px] border-jacarta-300">
+                                    {TabTitles}
+                                </ul>
+                            </Fade>
+                            <Fade right cascade >
+                                <div className="py-1 m-0">{TabContent}</div>
+                            </Fade >
+                            <Fade bottom>
+                                <div className="my-2 pt-1 mx-5 ">
+                                    {StepNavigation}
+                                </div>
+                            </Fade>
                         </div>
                     </div>
 

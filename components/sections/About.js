@@ -16,7 +16,7 @@ const About = () => {
             <Container >
                 <div className="container ">
                     <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px] xl:gap-24">
-                        <Fade left delay={1000} cascade>
+                        <Fade left cascade>
                             <div className="lg:col-span-5 py-8 md:col-span-6 order-last lg:order-first ">
                                 <div className="grid grid-cols-12 gap-6 items-center">
                                     <div className="col-span-6">
@@ -59,13 +59,13 @@ const About = () => {
                                     <h3 className="mb-6 lg:text-[46px] text-3xl leading-normal text-center md:text-left font-medium text-black dark:text-white">About Nigerian Fintech Awards </h3>
                                 </Fade>
                                 <div className="ten-row-paragraph">
-                                    <Fade right delay={1000}>
+                                    <Fade right >
                                         <p className="max-w-[38.9375rem] font-DmSans xl:text-[18px] ">Founded in 2012, the Nigerian Fintech Awards are dedicated to honoring excellence in financial technologies and services companies and products. The Awards provide public recognition for the achievements of FinTech companies and products in many categories. These include Payments, Personal Finance, Wealth Management, Fraud Protection, Banking, Lending, RegTech, InsurTech, and more. Nigerian Fintech Awards has no tie with any Fintech company. </p>
                                         <p className="max-w-[38.9375rem] font-DmSans xl:text-[18px] pt-1">This means that our decisions and actions are independent of any interest or operational restrictions. The ethos of the awards is in line with this freedom. Emaginations promotes the Nigerian Fintech Awards.</p>
                                     </Fade>
                                 </div>
                                 <div className="mt-8 lg:mt-12 text-center">
-                                    <Fade bottom delay={2000}>
+                                    <Fade bottom delay={1000}>
                                         <Link href="/about" passHref>
                                             <a>
                                                 <Button className="" color="secondary"> Learn More</Button>

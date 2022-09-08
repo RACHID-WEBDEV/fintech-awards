@@ -88,7 +88,7 @@ export const footerLink = [
             },
             {
                 title: 'Our Sponsors',
-                url: "/our-sponsors",
+                url: "/sponsorship",
                 smoothScroll: false
             },
             {

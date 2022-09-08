@@ -21,7 +21,7 @@ const Packages = () => {
                             <p className="lg:text-lg max-w-3xl text-center  mx-auto"> Our sponsorship packages come with branding, communications, and a few marketing channels offered by our publication, Fintech Africa.</p>
                         </Fade>
                     </div>
-                    <Fade bottom delay={1000}>
+                    <Fade bottom >
                         <PackageStep />
                     </Fade>
                 </div>

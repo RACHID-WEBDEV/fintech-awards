@@ -8,6 +8,7 @@ import BlogCard from '@/components/BlogCard'
 import blogData from '@/data/blog'
 import { Container } from '@/components/ColorSwitch'
 import { Button } from '@/components/form'
+import Fade from 'react-reveal/Fade';
 
 const Blogs = () => {
     return (
@@ -17,7 +18,9 @@ const Blogs = () => {
                 <Container className="pt-[5.5rem] lg:pt-24">
                     <section className="after:bg-jacarta-900/60 w-full h-full relative bg-cover bg-center bg-no-repeat py-32 after:absolute after:inset-0" style={{ backgroundImage: 'url("/assets/images/contact_banner.jpg")', }}>
                         <div className="container relative z-10">
-                            <h1 className="font-display text-center tracking-wider md:leading-normal lg:text-[46px] text-3xl font-medium text-white">Our Blog</h1>
+                            <Fade top>
+                                <h1 className="font-display text-center tracking-wider md:leading-normal lg:text-[46px] text-3xl font-medium text-white">Our Blog</h1>
+                            </Fade>
                         </div>
                     </section>
                     <section className="relative py-16 md:py-24">
@@ -26,22 +29,29 @@ const Blogs = () => {
                         </picture>
                         <div className="container">
                             {/* Featured Post */}
-                            {
-                                blogData.filter(i => i.feature === true).map(({ imageUrl, description, id, title, date, lastRead }, index) => (
-                                    <BlogCard featureCard key={index} id={id} description={description} lastRead={lastRead} imageUrl={imageUrl} date={date} title={title} />
-                                ))
-                            }
-
-                            <div className="grid grid-cols-1 gap-[1.875rem] sm:grid-cols-2 md:grid-cols-3">
-                                {
-                                    blogData.filter(i => i.feature === false).map(({ imageUrl, id, description, title, date, lastRead }, index) => (
-                                        <BlogCard key={index} description={description} id={id} lastRead={lastRead} imageUrl={imageUrl} date={date} title={title} />
-                                    ))
-                                }
-                            </div>
+                            <Fade left>
+                                <>
+                                    {
+                                        blogData.filter(i => i.feature === true).map(({ imageUrl, description, id, title, date, lastRead }, index) => (
+                                            <BlogCard featureCard key={index} id={id} description={description} lastRead={lastRead} imageUrl={imageUrl} date={date} title={title} />
+                                        ))
+                                    }
+                                </>
+                            </Fade>
+                            <Fade right>
+                                <div className="grid grid-cols-1 gap-[1.875rem] sm:grid-cols-2 md:grid-cols-3">
+                                    {
+                                        blogData.filter(i => i.feature === false).map(({ imageUrl, id, description, title, date, lastRead }, index) => (
+                                            <BlogCard key={index} description={description} id={id} lastRead={lastRead} imageUrl={imageUrl} date={date} title={title} />
+                                        ))
+                                    }
+                                </div>
+                            </Fade>
                             {/* Load More */}
                             <div className="mt-10 text-center">
-                                <Button color="secondary" >Load More</Button>
+                                <Fade bottom>
+                                    <Button color="secondary">Load More</Button>
+                                </Fade>
                             </div>
                         </div>
                     </section>

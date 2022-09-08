@@ -58,14 +58,14 @@ export const Header = ({ homePage, title, desc }) => {
 
   return (
     <>
-      <header className={`${!top && 'bg-white/70 backdrop-blur dark:bg-jacarta-800/70 dark:backdrop-blur'
+      <header className={`${!top && 'bg-white/70 backdrop-blur  dark:bg-jacarta-800/70 dark:backdrop-blur'
         } ${top && 'bg-white/70 backdrop-blur dark:bg-jacarta-800/70 dark:backdrop-blur'
         }   fixed top-0 z-40 w-full  transition-colors`}>
         <Head>
           <title>{title} | The Nigeria Fintech Awards </title>
           <meta name="description" content={desc} />
         </Head>
-        <div className="flex items-center pl-3 pr-6 py-1 xl:px-24">
+        <div className="flex items-center pl-3 pr-6 py-2 xl:px-24">
           {/*previous header className=""         
 
           <header className={`${!top && 'bg-white/70 backdrop-blur dark:bg-jacarta-800/70 dark:backdrop-blur'

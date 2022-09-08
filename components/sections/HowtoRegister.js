@@ -6,6 +6,7 @@ import CircleIcon from '@/public/assets/images/circle.png'
 import Link from 'next/link';
 import { Container } from '@/components/ColorSwitch'
 import Fade from 'react-reveal/Fade';
+import Jump from 'react-reveal/Jump';
 
 
 const HowtoRegister = () => {
@@ -52,11 +53,11 @@ const HowtoRegister = () => {
                                     <div className="grid sm:grid-cols-2">
                                         <div className="md:order-1 order-2">
                                             <div className="event event-description-left float-left text-left md:text-right md:mr-8">
-                                                <Fade top delay={1000}>
+                                                <Fade top >
                                                     <h5 className="title mb-1  lg:text-3xl text-2xl font-semibold">SUBMITTING AN ENTRY</h5>
                                                 </Fade>
                                                 <div className="text-[1.125rem] lg:text-[1.25rem] leading-[2rem]">
-                                                    <Fade bottom delay={1000}>
+                                                    <Fade bottom >
                                                         <p className="timeline-subtitle mt-3">
                                                             All entries must be written in English and submitted via our online entries portal.
 
@@ -76,7 +77,7 @@ const HowtoRegister = () => {
                                         </div>{/*end col*/}
                                         <div className="md:order-2 order-1">
                                             <div className="duration duration-right before:bg-jacarta-800 dark:before:bg-white md:ml-8 relative">
-                                                <Fade top delay={1000}>
+                                                <Fade top >
                                                     <h6 className=" text-3xl">2 <sup><small>nd</small></sup></h6>
                                                     <h5 className="-mt-2 font-bold pb-1 tracking-widest">STEP </h5>
                                                 </Fade>
@@ -88,7 +89,7 @@ const HowtoRegister = () => {
                                     <div className="grid sm:grid-cols-2">
                                         <div className="mt-4 mt-sm-0">
                                             <div className="duration date-label-left before:bg-jacarta-800 dark:before:bg-white  md:text-right md:mr-8 relative">
-                                                <Fade top delay={1000}>
+                                                <Fade top >
                                                     <h6 className=" text-3xl">3 <sup><small>rd</small></sup></h6>
                                                     <h5 className="-mt-2 font-bold pb-1 tracking-wider">STEP </h5>
                                                 </Fade >
@@ -99,7 +100,7 @@ const HowtoRegister = () => {
                                                 <Fade top >
                                                     <h5 className="title mb-1  lg:text-3xl text-2xl font-semibold">WHAT INFORMATION TO SUBMIT</h5>
                                                 </Fade>
-                                                <Fade bottom delay={1000}>
+                                                <Fade bottom >
                                                     <p className="timeline-subtitle mt-3 mb-3 text-[1.125rem] lg:text-[1.25rem] leading-[2rem] ">The more detail the better! We suggest including the following information:</p>
                                                 </Fade>
                                                 <Fade top cascade>
@@ -132,11 +133,13 @@ const HowtoRegister = () => {
                             </div>
                             <div className="flex items-center justify-center mt-8">
                                 <Fade bottom >
-                                    <Link href="https://forms.gle/W9voaB7zJczSsMMd6" passHref>
-                                        <a>
-                                            <Button className="uppercase" > Enter Now</Button>
-                                        </a>
-                                    </Link>
+                                    <Jump delay={1000}>
+                                        <Link href="https://forms.gle/W9voaB7zJczSsMMd6" passHref>
+                                            <a>
+                                                <Button className="uppercase" > Enter Now</Button>
+                                            </a>
+                                        </Link>
+                                    </Jump>
                                 </Fade>
                             </div>
                         </div>{/*end grid*/}
