@@ -1,18 +1,15 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useTheme } from 'next-themes';
 
-import logo from '@/public/assets/images/the-nigeria-fintech-awards-logo.png';
-import logoWhite from '@/public/assets/images/the-nigeria-fintech-awards-logo-white.png';
-
-
 export const Logo = () => {
   return (
     <Link href="/">
       <a>
-        <Image src={logo} className="max-h-7 h-16 w-[200px]" alt="The-nigeria-fintech-awards-logo " />
+        <img src="/assets/images/the-nigeria-fintech-awards-logo.png" className="h-20" alt="The-nigeria-fintech-awards-logo " />
       </a>
     </Link>
   );
@@ -29,7 +26,7 @@ export const LogoSwitch = () => {
   return (
     <Link href="/">
       <a>
-        {mounted && (theme === 'dark' || resolvedTheme === 'dark') ? <Image src={logoWhite} className="max-h-7 h-16 w-[200px]" alt="The-nigeria-fintech-awards-logo " /> : <Image src={logo} className="hidden max-h-7 dark:block" alt="The-nigeria-fintech-awards-logo " />}
+        {mounted && (theme === 'dark' || resolvedTheme === 'dark') ? <img src="/assets/images/the-nigeria-fintech-awards-logo-white.png" className="h-20" alt="The-nigeria-fintech-awards-logo " /> : <img src="/assets/images/the-nigeria-fintech-awards-logo.png" className="h-20" alt="The-nigeria-fintech-awards-logo " />}
       </a>
     </Link>
   );

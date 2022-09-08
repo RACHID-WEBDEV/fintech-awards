@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Image from 'next/image'
 import Header from '@/components/Header';
@@ -28,7 +29,7 @@ const About = () => {
                         <div className="col-span-2 row-span-3 sm:row-span-2 relative rounded-md sm:rounded-xl overflow-hidden cursor-pointer">
                             <div className="  absolute inset-0">
                                 <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                    <Image
+                                    <img
                                         src="/assets/gallery/nigeria-fintech-awardee-1.png"
                                         width={750}
                                         height={600}
@@ -39,7 +40,7 @@ const About = () => {
                                 </figure>
                                 <div className="mt-3">
                                     <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                        <Image
+                                        <img
                                             src="/assets/gallery/nigeria-fintech-awards-hero.jpg"
                                             width={950}
                                             height={630}
@@ -53,7 +54,7 @@ const About = () => {
                         </div>
                         <div className="relative rounded-md sm:rounded-xl overflow-hidden ">
                             <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                <Image
+                                <img
                                     src="/assets/gallery/nigeria-fintech-awardee-2.png"
                                     className="object-cover w-full h-full rounded-md sm:rounded-xl transition-transform duration-[1600ms] will-change-transform group-hover:scale-105"
 
@@ -63,7 +64,7 @@ const About = () => {
                                 />
                             </figure>
                             <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                <Image
+                                <img
                                     src="/assets/gallery/nigeria-fintech-awarde-new-logo.png"
                                     className="object-cover w-full h-full rounded-md sm:rounded-xl transition-transform duration-[1600ms] will-change-transform group-hover:scale-105"
                                     width={290}
@@ -74,7 +75,7 @@ const About = () => {
                         </div>
                         <div className="relative rounded-md sm:rounded-xl hidden lg:block overflow-hidden ">
                             <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                <Image
+                                <img
                                     src="/assets/gallery/nigeria-fintech-awards banner.jpg"
                                     className="object-cover w-full h-full rounded-md sm:rounded-xl transition-transform duration-[1600ms] will-change-transform group-hover:scale-105"
                                     width={350}
@@ -86,7 +87,7 @@ const About = () => {
                         <div className="relative rounded-md sm:rounded-xl overflow-hidden ">
                             <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
 
-                                <Image
+                                <img
                                     src="/assets/gallery/nigeria-fintech-awardee-3-400x600.png"
                                     className="object-cover w-full h-full rounded-md sm:rounded-xl transition-transform duration-[1600ms] will-change-transform group-hover:scale-105"
 
@@ -98,7 +99,7 @@ const About = () => {
                         </div>
                         <div className="relative rounded-md sm:rounded-xl overflow-hidden hidden sm:block">
                             <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                <Image
+                                <img
                                     src="/assets/gallery/nigeria-fintech-awards banner-1.jpg"
                                     className="object-cover w-full h-full rounded-md sm:rounded-xl transition-transform duration-[1600ms] will-change-transform group-hover:scale-105"
 

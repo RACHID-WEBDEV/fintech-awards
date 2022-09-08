@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -12,7 +13,7 @@ const BlogCard = ({ date, imageUrl, title, description, featureCard, id, lastRea
                         <figure className="group overflow-hidden md:w-1/2">
                             <Link href={`/blog/${title.toLowerCase().replaceAll(" ", "-")}`}>
                                 <a >
-                                    <Image src={imageUrl} alt={title} objectFit="cover" width="660px" height="540" className="h-full w-full object-cover transition-transform duration-[1600ms] will-change-transform group-hover:scale-105" />
+                                    <img src={imageUrl} alt={title} objectfit="cover" width="660px" height="540" className="h-full w-full object-cover transition-transform duration-[1600ms] will-change-transform group-hover:scale-105" />
                                 </a>
                             </Link>
                         </figure>
@@ -41,7 +42,7 @@ const BlogCard = ({ date, imageUrl, title, description, featureCard, id, lastRea
                         <figure className="group overflow-hidden">
                             <Link href={`/blog/${title.toLowerCase().replaceAll(" ", "-")}`} passHref>
                                 <a >
-                                    <Image src={imageUrl} width="400px" height="250px" alt={title} className="h-full w-full object-cover transition-transform duration-[1600ms] will-change-transform group-hover:scale-105" />
+                                    <img src={imageUrl} width="400px" height="250px" alt={title} className="h-full w-full object-cover transition-transform duration-[1600ms] will-change-transform group-hover:scale-105" />
                                 </a>
                             </Link>
                         </figure>

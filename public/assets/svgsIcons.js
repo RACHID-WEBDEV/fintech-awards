@@ -70,7 +70,7 @@ export const FacebookIcon = (props) => (
     <defs>
       <linearGradient id="paint0_linear" x1="0.5" y1="8.00049" x2="8.5" y2="8.00049" gradientUnits="userSpaceOnUse">
         <stop stopColor="#4776E6" />
-        <stop offset="1" stopClor="#8E54E9" />
+        <stop offset="1" stopclor="#8E54E9" />
       </linearGradient>
     </defs>
   </svg>

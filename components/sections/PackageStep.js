@@ -50,7 +50,7 @@ const PackageStep = () => {
 
                                 <div className="mb-6 flex items-center lg:space-x-5 space-x-3">
                                     <div className="lg:w-[130px] lg:h-[130px] w-24 h-24">
-                                        <Image src="/assets/team/mr sola.jpg" width={130} height={130} className="rounded-lg " alt="Team Member" />
+                                        <img src="/assets/team/mr sola.jpg" width={130} height={130} className="rounded-lg " alt="Team Member" />
                                     </div>
                                     <div>
                                         <h4 className="text-jacarta-700 dark:text-jacarta-100 text-[1.125rem] lg:text-xl tracking-widest mb-1 lg:my-2">SOLA FANAWOPO</h4>
@@ -84,7 +84,7 @@ const PackageStep = () => {
                                 </div>
                                 <div className="mb-6 flex items-center lg:space-x-5 space-x-3">
                                     <div className="lg:w-[130px] lg:h-[130px] w-24 h-24">
-                                        <Image src="/assets/team/Rarzack-Olaegbe-sec.png" width={130} height={130} className="rounded-lg " alt="Team Member" />
+                                        <img src="/assets/team/Rarzack-Olaegbe-sec.png" width={130} height={130} className="rounded-lg " alt="Team Member" />
                                     </div>
                                     <div>
                                         <h4 className="text-jacarta-700 dark:text-jacarta-100 text-[1.125rem] lg:text-xl tracking-widest mb-1 lg:my-2">RARZACK OLAEGBE</h4>

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Header from '@/components/Header'
 import Image from 'next/image'
@@ -23,7 +24,7 @@ const Partners = () => {
 
                         <section className="dark:bg-jacarta-800 relative py-16">
                             <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                                <Image src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
+                                <img src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
                             </picture>
                             <div className="container text-jacarta-700 dark:text-jacarta-50 font-DmSans">
                                 <h1 className=" mb-8 text-jacarta-700 text-center tracking-widest md:leading-normal lg:text-[46px] text-3xl font-medium dark:text-white">

@@ -200,7 +200,7 @@ export const Header = ({ homePage, title, desc }) => {
                         </a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/partners">
                         <a
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
@@ -208,7 +208,7 @@ export const Header = ({ homePage, title, desc }) => {
                           <span className="font-DmSans text-jacarta-700 text-sm font-medium dark:text-white">Our Partners</span>
                         </a>
                       </Link>
-                    </li>
+                    </li> */}
 
                   </ul>
                 </li>
@@ -390,7 +390,7 @@ export const Header = ({ homePage, title, desc }) => {
                           </a>
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/partners">
                           <a
                             className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
@@ -398,7 +398,7 @@ export const Header = ({ homePage, title, desc }) => {
                             <span className="text-jacarta-700 text-[1.125rem] tracking-wider dark:text-white">Our Partners</span>
                           </a>
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   }
 

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
@@ -19,7 +20,7 @@ const PastAwards = () => {
 
                 <section className="dark:bg-jacarta-800 relative pt-24">
                     <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                        <Image src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
+                        <img src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
                     </picture>
                     <h1 className=" mb-8 text-jacarta-700 text-center tracking-widest md:leading-normal lg:text-[46px] text-3xl font-medium dark:text-white">
                         Recent Past Awards
@@ -29,7 +30,7 @@ const PastAwards = () => {
                             <div className="col-span-2 row-span-3 sm:row-span-2 relative rounded-md sm:rounded-xl overflow-hidden cursor-pointer">
                                 <div className="  absolute inset-0">
                                     <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                        <Image
+                                        <img
                                             src="/assets/gallery/nigeria-fintech-awardee-1.png"
                                             width={750}
                                             height={600}
@@ -40,7 +41,7 @@ const PastAwards = () => {
                                     </figure>
                                     <div className="my-3">
                                         <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                            <Image
+                                            <img
                                                 src="/assets/gallery/nigeria-fintech-awards-hero.jpg"
                                                 width={950}
                                                 height={630}
@@ -51,7 +52,7 @@ const PastAwards = () => {
                                         </figure>
                                     </div>
                                     <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                        <Image
+                                        <img
                                             src="/assets/gallery/nigeria-fintech-awardee-2.png"
                                             width={750}
                                             height={600}
@@ -63,7 +64,7 @@ const PastAwards = () => {
                             </div>
                             <div className="relative rounded-md sm:rounded-xl overflow-hidden ">
                                 <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                    <Image
+                                    <img
                                         src="/assets/gallery/nigeria-fintech-awardee-2.png"
                                         className="object-cover w-full h-full rounded-md sm:rounded-xl transition-transform duration-[1600ms] will-change-transform group-hover:scale-105"
 
@@ -73,7 +74,7 @@ const PastAwards = () => {
                                     />
                                 </figure>
                                 <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                    <Image
+                                    <img
                                         src="/assets/gallery/nigeria-fintech-awarde-new-logo.png"
                                         className="object-cover w-full h-full rounded-md sm:rounded-xl transition-transform duration-[1600ms] will-change-transform group-hover:scale-105"
                                         width={290}
@@ -84,7 +85,7 @@ const PastAwards = () => {
                             </div>
                             <div className="relative rounded-md sm:rounded-xl overflow-hidden ">
                                 <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                    <Image
+                                    <img
                                         src="/assets/gallery/nigeria-fintech-awards banner.jpg"
                                         className="object-cover w-full h-full rounded-md sm:rounded-xl transition-transform duration-[1600ms] will-change-transform group-hover:scale-105"
                                         width={350}
@@ -96,7 +97,7 @@ const PastAwards = () => {
                             <div className="relative rounded-md sm:rounded-xl overflow-hidden ">
                                 <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
 
-                                    <Image
+                                    <img
                                         src="/assets/gallery/nigeria-fintech-awardee-3-400x600.png"
                                         className="object-cover w-full h-full rounded-md sm:rounded-xl transition-transform duration-[1600ms] will-change-transform group-hover:scale-105"
 
@@ -108,7 +109,7 @@ const PastAwards = () => {
                             </div>
                             <div className="relative rounded-md sm:rounded-xl overflow-hidden hidden sm:block">
                                 <figure className="group overflow-hidden rounded-md sm:rounded-2xl sm:rounded-b-[30px]">
-                                    <Image
+                                    <img
                                         src="/assets/gallery/nigeria-fintech-awards banner-1.jpg"
                                         className="object-cover w-full h-full rounded-md sm:rounded-xl transition-transform duration-[1600ms] will-change-transform group-hover:scale-105"
 

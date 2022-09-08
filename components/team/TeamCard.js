@@ -6,7 +6,7 @@ const TeamCard = ({ imagePath, name, title }) => {
     return (
         <div className="dark:bg-jacarta-700 custom-shadow2 rounded-2lg dark:border-jacarta-600 border-jacarta-100 border bg-white p-8 text-center transition-shadow hover:shadow-lg">
             <span className="group overflow-hidden relative">
-                <Image src={imagePath} width="130px" height="130px" className="rounded-[1.25rem] hover:rounded-[1.8rem] object-cover object-center group-hover:scale-110 transition duration-200 mx-auto mb-6 h-[8.125rem] w-[8.125rem]" alt="team" />
+                <img src={imagePath} width="130px" height="130px" className="rounded-[1.25rem] hover:rounded-[1.8rem] object-cover object-center group-hover:scale-110 transition duration-200 mx-auto mb-6 h-[8.125rem] w-[8.125rem]" alt="team" />
             </span>
             <h3 className="font-display text-jacarta-700 text-[1.125rem] dark:text-white">{name}</h3>
             <span className="text-jacarta-400 text-2xs font-medium tracking-tight">{title}</span>

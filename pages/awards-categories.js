@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
@@ -19,7 +20,7 @@ const Category = () => {
 
                 <section className="dark:bg-jacarta-800 relative pt-24">
                     <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                        <Image src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
+                        <img src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
                     </picture>
                     <AwardsCategory />
                     <AskQuestion />

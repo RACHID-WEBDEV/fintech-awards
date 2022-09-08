@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
@@ -9,7 +10,7 @@ const AskQuestion = () => {
             <div>
                 <div className="mt-2  avatar-group text-center">
                     <div className="relative z-20 inline-flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 -ml-4  transition-all duration-200 border-2 border-white border-solid rounded-full ease-soft-in-out text-size-xs hover:z-40">
-                        <Image
+                        <img
                             src="/assets/team/Shina-Badaru.jpg"
                             className="w-full rounded-full"
                             layout="fill"
@@ -18,7 +19,7 @@ const AskQuestion = () => {
                     </div>
 
                     <div className="relative z-30 inline-flex justify-center w-14 h-14 lg:w-16 lg:h-16 -ml-4  transition-all duration-200 border-2 border-white border-solid rounded-full ease-soft-in-out text-size-xs hover:z-30">
-                        <Image
+                        <img
 
                             src="/assets/team/mr sola.jpg"
                             className="w-full rounded-full"
@@ -28,7 +29,7 @@ const AskQuestion = () => {
                     </div>
 
                     <div className="relative z-20 inline-flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 -ml-4  transition-all duration-200 border-2 border-white border-solid rounded-full ease-soft-in-out text-size-xs hover:z-30">
-                        <Image
+                        <img
                             src="/assets/team/Rarzack-Olaegbe-sec.png"
                             className="w-full rounded-full"
                             layout="fill"

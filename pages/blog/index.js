@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,7 +9,7 @@ import blogData from '@/data/blog'
 import { Container } from '@/components/ColorSwitch'
 import { Button } from '@/components/form'
 
-const Blog = () => {
+const Blogs = () => {
     return (
         <>
             <Header title="Blog" desc="Blog The Nigeria FinTech Awards" />
@@ -21,7 +22,7 @@ const Blog = () => {
                     </section>
                     <section className="relative py-16 md:py-24">
                         <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                            <Image layout="fill" src="/assets/images/gradient_light.jpg" alt="gradient" className="h-full w-full" />
+                            <img layout="fill" src="/assets/images/gradient_light.jpg" alt="gradient" className="h-full w-full" />
                         </picture>
                         <div className="container">
                             {/* Featured Post */}
@@ -53,4 +54,4 @@ const Blog = () => {
     )
 }
 
-export default Blog
+export default Blogs

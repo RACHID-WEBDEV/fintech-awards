@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Footer from '@/components/Footer'
 import { Button } from '@/components/form'
 import Header from '@/components/Header'
@@ -19,7 +20,7 @@ const contact = () => {
                 {/* Contact */}
                 <section className="dark:bg-jacarta-800 relative py-24">
                     <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                        <Image src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
+                        <img src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
                     </picture>
                     <div className="container">
                         <div className="lg:flex">
