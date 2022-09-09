@@ -87,11 +87,11 @@ const PackageTab = () => {
                         {/* <Fade right>
                             </Fade > */}
                         <div className="py-1 m-0">{TabContent}</div>
-                        <Fade bottom>
-                            <div className="my-2 pt-1 mx-5 ">
-                                {StepNavigation}
-                            </div>
-                        </Fade>
+                        {/* <Fade bottom> */}
+                        <div className="my-2 pt-1 mx-5 ">
+                            {StepNavigation}
+                        </div>
+                        {/* </Fade> */}
                     </div>
                 </div>
 

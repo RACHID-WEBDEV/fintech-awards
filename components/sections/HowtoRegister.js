@@ -133,13 +133,13 @@ const HowtoRegister = () => {
                             </div>
                             <div className="flex items-center justify-center mt-8">
                                 <Fade bottom >
-                                    <Jump delay={1000}>
-                                        <Link href="https://forms.gle/W9voaB7zJczSsMMd6" passHref>
-                                            <a>
-                                                <Button className="uppercase" > Enter Now</Button>
-                                            </a>
-                                        </Link>
-                                    </Jump>
+                                    {/* <Jump delay={1000}> */}
+                                    <Link href="https://forms.gle/W9voaB7zJczSsMMd6" passHref>
+                                        <a>
+                                            <Button className="uppercase" > Enter Now</Button>
+                                        </a>
+                                    </Link>
+                                    {/* </Jump> */}
                                 </Fade>
                             </div>
                         </div>{/*end grid*/}

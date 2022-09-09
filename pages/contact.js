@@ -69,7 +69,7 @@ const contact = () => {
                                 <div className="lg:w-1/3 lg:pl-5">
                                     <h2 className="font-display text-jacarta-700 mb-4 text-xl dark:text-white">Information</h2>
                                     <p className="dark:text-jacarta-300 mb-6 text-base lg:text-[1.125rem] xl:text-lg leading-normal">
-                                        Don&apos;t hesitaste, drop us a line Let&apos;s talk
+                                        Don&apos;t hesitate, drop us a line Let&apos;s talk
                                         about Sponsorship. Feel free to ask us any question and let’s start talking about our collaboration.
 
 
