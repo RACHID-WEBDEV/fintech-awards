@@ -65,7 +65,7 @@ const About = () => {
                                     </Fade>
                                 </div>
                                 <div className="mt-8 lg:mt-12 text-center">
-                                    <Fade bottom delay={1000}>
+                                    <Fade bottom >
                                         <Link href="/about" passHref>
                                             <a>
                                                 <Button className="" color="secondary"> Learn More</Button>

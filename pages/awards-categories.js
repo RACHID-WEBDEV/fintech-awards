@@ -12,7 +12,7 @@ const Category = () => {
     return (
         <>
             <Header title="Awards-Categories" desc="Awards-Categories The Nigeria FinTech Awards" />
-            <main className="w-screen pt-[5.5rem] lg:pt-20">
+            <main className="w-full pt-[5.5rem] lg:pt-20">
                 {/* Page Title */}
                 <section className="after:bg-jacarta-900/60 w-full h-full relative bg-cover bg-center bg-no-repeat py-32 mt-5 after:absolute after:inset-0" style={{ backgroundImage: 'url("/assets/images/awards_banner.jpg")', }}>
                     <div className="container relative z-10">
@@ -22,7 +22,7 @@ const Category = () => {
                     </div>
                 </section>
 
-                <section className="dark:bg-jacarta-800 relative pt-24">
+                <section className="dark:bg-jacarta-800 relative pt-24 w-full">
                     <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
                         <img src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
                     </picture>

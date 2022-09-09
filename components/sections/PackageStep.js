@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import packageData from '@/data/packages';
