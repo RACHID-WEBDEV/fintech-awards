@@ -33,11 +33,11 @@ const Partners = () => {
                                 <div className="dark:bg-jacarta-800 bg-light-base">
                                     <div className="container">
                                         <div className="grid grid-cols-2 py-8 sm:grid-cols-5">
-                                            <a href="#"><img src="/assets/images/partner.png" alt="partner 1" /> </a>
-                                            <a href="#"><img src="/assets/images/partner.png" alt="partner 1" /> </a>
-                                            <a href="#"><img src="/assets/images/partner.png" alt="partner 1" /> </a>
-                                            <a href="#"><img src="/assets/images/partner.png" alt="partner 1" /> </a>
-                                            <a href="#"><img src="/assets/images/partner.png" alt="partner 1" /> </a>
+                                            <img src="/assets/partners/partner1.png" alt="partner 1" />
+                                            <img src="/assets/partners/partner2.png" alt="partner 2" />
+                                            <img src="/assets/partners/partner1.png" alt="partner 1" />
+                                            <img src="/assets/partners/partner2.png" alt="partner 1" />
+                                            <img src="/assets/partners/partner1.png" alt="partner 1" />
                                         </div>
                                     </div>
                                 </div>

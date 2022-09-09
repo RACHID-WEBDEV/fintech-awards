@@ -64,7 +64,7 @@ const PackageTab = () => {
 
     return (
         <>
-            <Container className=" pt-3">
+            <Container className=" pt-3 w-screen">
                 <div >
                     <div id="categories" className="mb-4 text-jacarta-700 dark:text-jacarta-100">
                         <Fade top >
@@ -84,7 +84,7 @@ const PackageTab = () => {
                                     {TabTitles}
                                 </ul>
                             </Fade>
-                            <Fade right cascade >
+                            <Fade right>
                                 <div className="py-1 m-0">{TabContent}</div>
                             </Fade >
                             <Fade bottom>
