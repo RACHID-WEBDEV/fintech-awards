@@ -20,15 +20,15 @@ export default function Home() {
 
       <Header homePage
         title="Home-Page" desc="Home-Page The Nigeria FinTech Awards" />
-      <HomeHero />
-      <AboutSection />
-      <HowtoRegSection />
-      <Packages />
-      <AwardsCategory />
-      <AskQuestion />
-      <Footer />
-
-      {/* <section className="hero w-screen h-screen mt-20"></section> */}
+      <div className="!min-w-full">
+        <HomeHero />
+        <AboutSection />
+        <HowtoRegSection />
+        <Packages />
+        <AwardsCategory />
+        <AskQuestion />
+        <Footer />
+      </div>
     </>
   );
 }

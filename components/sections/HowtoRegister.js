@@ -103,7 +103,7 @@ const HowtoRegister = () => {
                                                 <Fade bottom >
                                                     <p className="timeline-subtitle mt-3 mb-3 text-[1.125rem] lg:text-[1.25rem] leading-[2rem] ">The more detail the better! We suggest including the following information:</p>
                                                 </Fade>
-                                                <Fade top >
+                                                <Fade left >
                                                     <ol type={1} className="space-y-2 text-[1.125rem] lg:text-[1.25rem] leading-[2rem]">
                                                         <li><b>1.</b>  Dates of the overall project.</li>
                                                         <li><b>2.</b> All entries should be for the period of the last two years.</li>
