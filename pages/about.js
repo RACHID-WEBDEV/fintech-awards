@@ -29,7 +29,7 @@ const About = () => {
                         </div>
                     </div>
                 </section>
-                <Fade left cascade>
+                <Fade left >
                     <section className="lg:px-10">
                         <div className="relative  m-2 grid grid-cols-3 sm:grid-cols-4 gap-3 sm:gap-5">
                             <div className="col-span-2 row-span-3 sm:row-span-2 relative rounded-md sm:rounded-xl overflow-hidden cursor-pointer">

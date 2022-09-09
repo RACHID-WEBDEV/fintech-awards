@@ -16,7 +16,7 @@ const About = () => {
             <Container >
                 <div className="container ">
                     <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px] xl:gap-24">
-                        <Fade left cascade>
+                        <Fade left >
                             <div className="lg:col-span-5 py-8 md:col-span-6 order-last lg:order-first ">
                                 <div className="grid grid-cols-12 gap-6 items-center">
                                     <div className="col-span-6">

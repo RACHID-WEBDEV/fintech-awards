@@ -40,7 +40,7 @@ function Footer() {
                     }
                   </div>
                 </div>
-                <Fade cascade top delay={2000}>
+                <Fade top delay={2000}>
 
                   {
                     footerLink.map(({ heading, subHeadings }, index) => (
