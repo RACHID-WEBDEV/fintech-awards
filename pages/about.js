@@ -29,7 +29,7 @@ const About = () => {
                         </div>
                     </div>
                 </section>
-                <Fade left >
+                <Fade left cascade>
                     <section className="lg:px-10">
                         <div className="relative  m-2 grid grid-cols-3 sm:grid-cols-4 gap-3 sm:gap-5">
                             <div className="col-span-2 row-span-3 sm:row-span-2 relative rounded-md sm:rounded-xl overflow-hidden cursor-pointer">
@@ -155,15 +155,15 @@ const About = () => {
                                         <p className="dark:text-jacarta-300 block">Founded</p>
                                     </div>
                                     <div className="mb-10 text-center">
-                                        <h5 className="text-jacarta-700 block text-5xl dark:text-white">693+</h5>
+                                        <h5 className="text-jacarta-700 block text-5xl dark:text-white">400+</h5>
                                         <span className="dark:text-jacarta-300 block">Awardees</span>
                                     </div>
                                     <div className="mb-10 text-center">
-                                        <h5 className="text-jacarta-700 block text-5xl dark:text-white">15+</h5>
+                                        <h5 className="text-jacarta-700 block text-5xl dark:text-white"> 30+</h5>
                                         <span className="dark:text-jacarta-300 block">Sponsors</span>
                                     </div>
                                     <div className="mb-10 text-center">
-                                        <h5 className="text-jacarta-700 block text-5xl dark:text-white">1.6M</h5>
+                                        <h5 className="text-jacarta-700 block text-5xl dark:text-white">300k+</h5>
                                         <span className="dark:text-jacarta-300 block">Tickets Sold</span>
                                     </div>
                                 </div>

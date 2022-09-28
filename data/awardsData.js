@@ -535,12 +535,24 @@ const faqsData = [
         content:
           <div className="text-jacarta-700 dark:text-jacarta-300 space-y-4">
             <div>
+              <h6 className="mt-2 text-[1.125rem] lg:text-lg font-DmSans font-black dark:text-white">
+                Best FinTech CEO
+
+              </h6>
+              <p className="lg:text-[18px]">For an outstanding Fintech CEO that has impacted the industry in many ways.</p>
+            </div>
+            <div>
               <h6 className="mt-2 text-[1.125rem] lg:text-lg font-DmSans font-black dark:text-white">Best Employee Benefits Solution</h6>
               <p className="lg:text-[18px]">
                 For an HR and Payroll platform that gives users access to a wide range of services
               </p>
             </div>
-
+            <div>
+              <h6 className="mt-2 text-[1.125rem] lg:text-lg font-DmSans font-black dark:text-white">
+                Best FinTech Marketer
+              </h6>
+              <p className="lg:text-[18px]">For an outstanding Marketing professional that has impacted the industry in many ways.</p>
+            </div>
             <div>
               <h6 className="mt-2 text-[1.125rem] lg:text-lg font-DmSans font-black dark:text-white"> Best Female Fintech CEO</h6>
               <p className="lg:text-[18px]">

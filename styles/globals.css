@@ -109,6 +109,8 @@ input:-webkit-autofill:active {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+
 body {
   width: 100%;
   min-height: 100vh;

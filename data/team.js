@@ -22,6 +22,12 @@ const team = [
     //     imagePath: '/assets/team/Chidinma-Lawanson.jpg',
     //     title: 'Member'
     // },
+    {
+
+        name: 'Oluwakemi Roland',
+        imagePath: '/assets/team/oluwakemi.jpg',
+        title: 'Member'
+    },
 
     {
 
